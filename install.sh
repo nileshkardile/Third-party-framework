@@ -1,8 +1,5 @@
 set -xv
 
-home_dir=/var/lib/jenkins/workspace/Third-party-framework/src
-cd $home_dir
-
 # install kubernetes metrics server
 sudo /usr/bin/kubectl apply -f ./metrics-server-0.3.6/deploy/1.8+/
 
