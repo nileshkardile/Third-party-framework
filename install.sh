@@ -1,5 +1,7 @@
 set -xv
 
+cd $home/src
+
 # install kubernetes metrics server
 sudo /usr/bin/kubectl apply -f ./metrics-server-0.3.6/deploy/1.8+/
 
